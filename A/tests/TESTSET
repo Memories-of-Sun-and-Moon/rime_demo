@@ -1,0 +1,7 @@
+# -*- coding: utf-8; mode: python -*-
+
+## Input generators.
+cxx_generator(src='generator.cpp', flags=['-O2', '-std=c++17'])
+
+## Input validators.
+cxx_validator(src='validator.cpp', flags=['-O2', '-std=c++17'])
